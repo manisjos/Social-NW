@@ -12,7 +12,7 @@ var usersController = require('./server/controllers/users-controller');
 
 // mongoose.connect('mongodb://localhost:27017/time-waste');
 
-mongoose.connect('mongodb://nodejsapi:nodejsapi@ds041516.mlab.com:41516/mynodejsapp');
+mongoose.connect('mongodb://nodejsapi:nodejsapi@ds041516.mlab.com:41516/mynodejsapp2');
 
 
 app.use(bodyParser.json());
