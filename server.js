@@ -44,6 +44,6 @@ app.post('/api/waste/get', wasteController.getWastes);
 app.get('/api/users/get', usersController.getUsers);
 app.post('/api/users/follow', usersController.followUser);
 
-// app.listen('3000', function (){
-//     console.log("Listening for Local Host 3000");
-// });
+app.listen('3000', function (){
+    console.log("Listening for Local Host 3000");
+});
