@@ -13,8 +13,9 @@ var usersController = require('./server/controllers/users-controller');
 // mongoose.connect('mongodb://localhost:27017/time-waste');
 // 'url' : 'mongodb://manisjosH:mLab$123@ds145312.mlab.com:45312/userdata'
 // mongoose.connect('mongodb://nodejsapi:nodejsapi@ds041516.mlab.com:41516/mynodejsapp');
-mongoose.connect('mongodb://socialapp:socialapp@ds153422.mlab.com:53422/social_app');
-
+// mongoose.connect('mongodb://socialapp:socialapp@ds153422.mlab.com:53422/social_app');
+mongoose.connect('mongodb://socialapp:socialapp@ds151752.mlab.com:51752/social_app_db');
+// mongodb://<dbuser>:<dbpassword>@ds151752.mlab.com:51752/social_app_db
 // mongodb://manisjosH:mLab$123@ds145312.mlab.com:45312/userdata
 
 
