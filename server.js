@@ -15,7 +15,7 @@ var usersController = require('./server/controllers/users-controller');
 // mongoose.connect('mongodb://nodejsapi:nodejsapi@ds041516.mlab.com:41516/mynodejsapp');
 mongoose.connect('mongodb://socialapp:socialapp@ds145312.mlab.com:45312/social_app');
 
-mongodb://manisjosH:mLab$123@ds145312.mlab.com:45312/userdata
+// mongodb://manisjosH:mLab$123@ds145312.mlab.com:45312/userdata
 
 
 app.use(bodyParser.json());
