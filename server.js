@@ -11,8 +11,11 @@ var wasteController = require('./server/controllers/waste-controller');
 var usersController = require('./server/controllers/users-controller');
 
 // mongoose.connect('mongodb://localhost:27017/time-waste');
+// 'url' : 'mongodb://manisjosH:mLab$123@ds145312.mlab.com:45312/userdata'
+// mongoose.connect('mongodb://nodejsapi:nodejsapi@ds041516.mlab.com:41516/mynodejsapp');
+mongoose.connect('mongodb://socialapp:socialapp@ds145312.mlab.com:45312/social_app');
 
-mongoose.connect('mongodb://nodejsapi:nodejsapi@ds041516.mlab.com:41516/mynodejsapp2');
+mongodb://manisjosH:mLab$123@ds145312.mlab.com:45312/userdata
 
 
 app.use(bodyParser.json());
